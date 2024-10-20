@@ -1,0 +1,221 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Section container for the posts */
+.section-post {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Ordered list styles */
+.section-post ol {
+    list-style: none;
+    padding: 0;
+}
+
+.section-post li {
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.2s ease;
+}
+
+.section-post li:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Post title and body */
+.section-post li p {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #333;
+}
+
+.section-post li p:first-of-type {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+/* Buttons inside each post */
+.section-post li button {
+    padding: 8px 15px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+
+.section-post li button:hover {
+    background-color: #f0f0f0;
+}
+
+/* Edit button styles */
+.section-post li button:first-of-type {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.section-post li button:first-of-type:hover {
+    background-color: #2980b9;
+}
+
+/* Delete button styles */
+.btn-delete {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+.btn-delete:hover {
+    background-color: #c0392b;
+}
+
+/* Form container styles */
+.form-container {
+    max-width: 400px; /* Set a max width for the form */
+    margin: 20px auto; /* Center the form */
+    padding: 20px; /* Add some padding inside the form */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background-color: #fff; /* White background color */
+}
+
+/* Form heading */
+.form-container h2 {
+    text-align: center; /* Center the title */
+    margin-bottom: 20px; /* Space below the title */
+}
+
+/* Label styles */
+.label {
+    display: block; /* Make labels block elements */
+    margin-bottom: 5px; /* Space below labels */
+    font-weight: bold; /* Bold font for labels */
+}
+
+/* Input field styles */
+.input-field {
+    width: 100%; /* Full width of the container */
+    padding: 10px; /* Padding inside the input */
+    margin-bottom: 15px; /* Space below input fields */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Slightly rounded corners */
+    box-sizing: border-box; /* Include padding and border in width */
+}
+
+.input-field:focus {
+    border-color: #007bff; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+/* Submit button styles */
+.submit-button {
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    padding: 10px 15px; /* Padding inside button */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size for the button */
+    width: 100%; /* Full width of the container 
+    /* General form styles */
+form {
+    max-width: 500px; /* Set a maximum width for the form */
+    margin: 20px auto; /* Center the form horizontally */
+    padding: 20px; /* Add padding inside the form */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 10px; /* Rounded corners */
+    background-color: #fff; /* White background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Form group styles */
+div {
+    margin-bottom: 15px; /* Space between form groups */
+}
+
+/* Label styles */
+label {
+    display: block; /* Make labels block elements */
+    margin-bottom: 5px; /* Space below the label */
+    font-weight: bold; /* Bold font for labels */
+}
+
+/* Input field styles */
+input[type="text"] {
+    width: 100%; /* Full width of the form */
+    padding: 10px; /* Padding inside the input */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Slightly rounded corners */
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+    transition: border-color 0.3s ease; /* Smooth transition for border color */
+}
+
+/* Input focus styles */
+input[type="text"]:focus {
+    border-color: #007bff; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+/* Button styles */
+button[type="submit"] {
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    padding: 10px 15px; /* Padding inside the button */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size for the button */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+    width: 100%; /* Full width of the form */
+}
+
+/* Button hover styles */
+button[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+*/
+}
+
+.submit-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .section-post {
+        padding: 15px;
+    }
+
+    .section-post li p {
+        font-size: 0.9rem;
+    }
+
+    .section-post li button {
+        font-size: 0.8rem;
+    }
+
+    .form-container {
+        padding: 15px; /* Adjust padding for smaller screens */
+    }
+}
