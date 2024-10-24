@@ -1,17 +1,24 @@
-import axios from "axios";
+// src/api/PostApi.js
+import axios from 'axios';
 
-const api = axios.create({
-    baseURL: "https://jsonplaceholder.typicode.com"
-});
+const API_URL = 'http://localhost:5001/api/posts'; // Replace with your backend URL
 
-
-
-export const getPost = () => {
-    return api.get("/posts");
+export const getPosts = async () => {
+  const response = await axios.get(API_URL);
+  return response.data;
 };
-export const deletePost = (id) => {
-    return api.delete(`/posts/${id}`);
-} ;
-export const postData = (post) => {
-    return api.post("/posts",post);
-} ;
+
+export const postData = async (post) => {
+  const response = await axios.post(API_URL, post);
+  return response.data;
+};
+
+export const updatePost = async (id, post) => {
+  const response = await axios.put(`${API_URL}/${id}`, post);
+  return response.data;
+};
+
+export const deletePost = async (id) => {
+  const response = await axios.delete(`${API_URL}/${id}`);
+  return response.data;
+};

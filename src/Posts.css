@@ -1,0 +1,32 @@
+/* src/Posts.css */
+.posts-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+  
+  .post-item h3 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .post-item p {
+    margin: 5px 0 0;
+    color: #666;
+  }
+  
+  h2 {
+    color: #444;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  

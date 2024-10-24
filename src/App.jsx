@@ -1,13 +1,12 @@
-
-
-import { Posts } from "./components/Posts"
-import "./App.css"
+import React from 'react';
+import Posts from './Posts'; // Adjust the path as needed
 
 const App = () => {
   return (
-    <section className="main-section">
+    <div className="App">
+      <h1>Welcome to the Post Manager</h1>
       <Posts />
-    </section>
+    </div>
   );
 };
 
